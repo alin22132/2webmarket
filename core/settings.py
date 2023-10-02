@@ -162,7 +162,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # settings.py
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'theme_material_kit', 'static'),
 ]
 
 LOGIN_REDIRECT_URL = '/'
